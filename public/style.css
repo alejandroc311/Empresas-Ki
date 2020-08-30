@@ -12,3 +12,14 @@ html, body{
 .productCarousel {
   padding: 3rem
 }
+
+/*Julio additions*/
+
+.btn {
+  background-color: #B39F86;
+  border-color: #B39F86
+}
+
+.card {
+  border: 3px solid #67C3EC
+}
