@@ -9,11 +9,22 @@ html, body{
 
 }
 
+/*font inclusion*/
+
+@font-face {
+    font-family: 'loraregular';
+    src: url('lora-regular-webfont.woff2') format('woff2'),
+         url('lora-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*JUMBOTRON WITH MEDIA QUERIES*/
 
 /*JUMBOTRON CSS*/
 .jumbotron{
-  background-image: url("ki-jumbo-5.jpg");
+  background-image: url("ki-jumbo-6-warm.jpg");
   background-size: 100% 100%;
 }
 
@@ -59,16 +70,36 @@ html, body{
 /*Julio additions*/
 
 .btn {
-  background-color: #B39F86;
-  border-color: #B39F86
+  background-color: #8ad7c1;
 }
 
 .card {
-  border: 3px solid #67C3EC;
-  margin: 1.625rem
+  margin: 1.625rem;
+  background-color:  #f4f9f4;
 }
 
-/*nav bar margin*/
+/*nav bar style*/
 
 .navbar-brand{
 margin: 10px;}
+
+.navbar{
+  background-color: #f4f9f4;
+  font-family: 'loraregular';
+}
+
+.collapse.navbar-collapse.justify-content-end ul li a{
+  color: #706c61;
+}
+
+/*body style*/
+
+.container-fluid.d-flex.justify-content-center{
+  background-color: #f4f9f4;
+  font-family: 'loraregular';
+}
+
+.container-fluid.d-flex.justify-content-center h1{
+  color: #706c61;
+  margin-top: 10px;
+}
