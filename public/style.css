@@ -21,7 +21,9 @@ html, body{
 }
 
 /*NAVBAR STYLING*/
-
+.navbar-toggler{
+  margin-left: 4.125rem;
+}
 /*BRAND CONTAINER STYLING*/
 .containerbrand{
   margin-right: auto;
@@ -29,46 +31,20 @@ html, body{
   padding: 0;
 }
 
+/*PEPPER PHOTO CONTAINER STYLING*/
+#pepperContainer{
+  background-image: url("pepper.jpg");
+  background-size: 100% 100%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 20rem;
+  width: 50rem;
+}
+
+
 /*JUMBOTRON WITH MEDIA QUERIES*/
 
 /*JUMBOTRON CSS*/
-.jumbotron{
-  background-image: url("ki-jumbo-6-warm.jpg");
-  background-size: 100% 100%;
-}
-
-@media only screen and (max-width:400px){
-  .jumbotron{
-    height: 6rem;
-  }
-}
-
-@media only screen and (min-width:400px) and (max-width:576px){
-  .jumbotron{
-    height: 7.25rem;
-  }
-}
-
-@media only screen and (min-width:576px) and (max-width:768px){
-  .jumbotron{
-    height: 11.5rem;
-  }
-}
-@media only screen and (min-width:768px) and (max-width:992px){
-  .jumbotron{
-    height: 14rem;
-  }
-}
-@media only screen and (min-width:992px) and (max-width:1200px){
-  .jumbotron{
-    height: 17.5rem;
-  }
-}
-@media only screen and (min-width:1200px){
-  .jumbotron{
-    height: 20rem;
-  }
-}
 
 /*CAROUSEL WITH CARDS TO SHOW PRODUCTS*/
 
