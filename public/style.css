@@ -20,6 +20,15 @@ html, body{
 
 }
 
+/*NAVBAR STYLING*/
+
+/*BRAND CONTAINER STYLING*/
+.containerbrand{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+
 /*JUMBOTRON WITH MEDIA QUERIES*/
 
 /*JUMBOTRON CSS*/
